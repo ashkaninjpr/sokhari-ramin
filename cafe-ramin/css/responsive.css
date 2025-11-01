@@ -1,0 +1,290 @@
+@media (max-width: 1024px) {
+    .content {
+        width: 95%;
+        padding: 25px;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .menu-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    
+    .products-grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: 95%;
+        padding: 20px;
+        margin: 80px auto 20px;
+        border-radius: 15px;
+    }
+
+    .navbar {
+        flex-direction: row;
+        padding: 10px 0;
+    }
+
+    .nav-links {
+        display: none;
+    }
+    
+    .nav-contact {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    .mobile-menu.active {
+        display: block;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .menu-options {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .option-card {
+        padding: 30px 20px;
+    }
+    
+    .option-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 1.8rem;
+    }
+
+    .page-header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .category-title {
+        font-size: 1.5rem;
+    }
+
+    .admin-header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .admin-tabs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tab-btn {
+        flex: 1;
+        min-width: 140px;
+        justify-content: center;
+    }
+
+    .section-header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-card {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .product-image {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .product-meta {
+        justify-content: center;
+    }
+
+    .product-actions {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .categories-grid,
+    .social-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .contact-info p {
+        justify-content: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+    
+    .login-form-container {
+        padding: 30px 20px;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        padding: 15px;
+        margin: 70px auto 15px;
+        border-radius: 12px;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+    
+    .logo i {
+        font-size: 1.5rem;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .option-card {
+        padding: 25px 15px;
+    }
+    
+    .option-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+    
+    .option-card h3 {
+        font-size: 1.3rem;
+    }
+
+    .page-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .back-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .login-form-container {
+        padding: 25px 15px;
+    }
+    
+    .login-header h2 {
+        font-size: 1.6rem;
+    }
+    
+    .admin-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .tab-btn {
+        min-width: 120px;
+        padding: 12px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .section-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .modal-header {
+        padding: 20px;
+    }
+    
+    .modal-form {
+        padding: 20px;
+    }
+    
+    .modal-actions {
+        flex-direction: column;
+    }
+    
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .footer-section h3 {
+        font-size: 1.1rem;
+    }
+    
+    .notification {
+        min-width: 250px;
+        left: 10px;
+        right: 10px;
+        transform: translateX(0) translateY(-100px);
+    }
+    
+    .notification.show {
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@media (max-width: 360px) {
+    .hero-title {
+        font-size: 1.6rem;
+    }
+    
+    .option-card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .menu-item {
+        margin: 0 -10px;
+        border-radius: 10px;
+    }
+    
+    .product-card {
+        margin: 0 -5px;
+    }
+    
+    .tab-btn {
+        min-width: 100px;
+        padding: 10px 12px;
+        font-size: 0.8rem;
+    }
+}
